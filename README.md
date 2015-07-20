@@ -9,13 +9,13 @@
 
 ## About the API
 
-We make the Corporate Consumer Contact listing found in the [Consumer Action Handbook (PDF)](/topics/consumer/consumer-action-handbook.pdf) available via a REST API. The API programmatically returns all of the information contained in the directory, or you can query the API to return just a subset of the available information.
+We make the Corporate Consumer Contact listing found in the [Consumer Action Handbook (PDF)](http://publications.usa.gov/USAFileDnld.php?PubType=P&PubID=5131&httpGetPubID=0) available via a REST API. The API programmatically returns all of the information contained in the directory, or you can query the API to return just a subset of the available information.
 
 If you are using the Corporate Consumer Contact API and have questions, feedback, or want to tell us about your product, please [e-mail us](mailto:usagov-developers@gsa.gov).
 
 ## About the Data
 
-The data in the Corporate Consumer Contact API is based on the content you can find in the Corporate Consumer Contact listing in the [Consumer Action Handbook (PDF)](/topics/consumer/consumer-action-handbook.pdf). We gather this data manually, as it can sometimes be difficult for consumers to find out how they can contact a corporation. As this is a consumer focused dataset, corporations included in the API are corporations that directly interact with consumers.
+The data in the Corporate Consumer Contact API is based on the content you can find in the Corporate Consumer Contact listing in the [Consumer Action Handbook (PDF)](http://publications.usa.gov/USAFileDnld.php?PubType=P&PubID=5131&httpGetPubID=0). We gather this data manually, as it can sometimes be difficult for consumers to find out how they can contact a corporation. As this is a consumer focused dataset, corporations included in the API are corporations that directly interact with consumers.
 
 There is no schedule for data updates; we update the data continually, and as needed. However, all data is reviewed at least annually.
 
@@ -25,13 +25,13 @@ If you have suggestions about what types of data you would like to see in the Co
 
 Our Corporate Consumer Contact API is accessible via HTTP GET requests and does not require a login or API key to use.
 
-The base URL for the API is http://www.usa.gov/api/USAGovAPI/corporate/contacts.{format}/. Append the API call you’d like to make to this URL.
+The base URL for the API is https://www.usa.gov/api/USAGovAPI/corporate/contacts.{format}/. Append the API call you’d like to make to this URL.
 
 Currently, three output formats are available:
 
-1.  JSON (such as http://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contacts)
-2.  XML (such as http://www.usa.gov/api/USAGovAPI/corporate/contacts.xml/contacts)
-3.  JSONP (such as http://www.usa.gov/api/USAGovAPI/corporate/contacts.jsonp/contacts?callback=callmemaybe). When requesting JSONP, you should include a callback parameter with the name of the callback function you would like called.
+1.  JSON (such as https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contacts)
+2.  XML (such as https://www.usa.gov/api/USAGovAPI/corporate/contacts.xml/contacts)
+3.  JSONP (such as https://www.usa.gov/api/USAGovAPI/corporate/contacts.jsonp/contacts?callback=callmemaybe). When requesting JSONP, you should include a callback parameter with the name of the callback function you would like called.
 
 For the purposes of this documentation, only JSON sample calls and results will be shown.
 
@@ -161,7 +161,7 @@ The Contacts endpoint will return an array of objects, such as:
 
 ### Contact/{id}
 
-The Contact call will let you access an individual corporation's information by including its unique identifier in the call, such as [http://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contact/52999](http://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contact/52999).
+The Contact call will let you access an individual corporation's information by including its unique identifier in the call, such as [https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contact/52999](https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contact/52999).
 
 ### Sample Results
 
@@ -208,4 +208,4 @@ We encourage you to try out the [interactive documentation](http://www.usa.gov/A
 
 ## Terms of Service
 
-By using this data, you agree to the [Terms of Service](/About/developer-resources/terms-of-service.shtml).
+By using this data, you agree to the [Terms of Service](https://www.usa.gov/developer-terms-of-service).
