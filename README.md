@@ -37,7 +37,7 @@ For the purposes of this documentation, only JSON sample calls and results will 
 
 ### Interactive Documentation for the API
 
-If you're interested in trying out the Corporate Consumer Contact API, we have an [interactive test page](http://www.usa.gov/About/developer-resources/federal-agency-directory/interactivecorpdoc.shtml#!/contacts/). On this page, you can try different parameters and see the results.
+The interactive documentation for the Corporate Consumer Contact API has been discontinued as we're preparing to deprecate this API in its current form.  The content will still be available, but the format of the API will be slightly different as we launch an improved API that provides access not just to directory content, but to all of the content available on USA.gov and GobiernoUSA.gov.
 
 ### API Data Model
 
@@ -203,8 +203,6 @@ The Contact endpoint will return a single object, such as:
     }
 
 For a complete list of fields returned in the json, see the data model description above. Please note that any field that contains more than one item in it (such as web URLs), is returned as an array and noted in the data model description.
-
-We encourage you to try out the [interactive documentation](http://www.usa.gov/About/developer-resources/federal-agency-directory/interactivecorpdoc.shtml#!/contacts/) to learn more.
 
 ## Terms of Service
 
