@@ -1,4 +1,8 @@
-# Corporate Consumer Contact API Documentation
+# NOTE: This API has been deprecated and is no longer active.  For a list of active GSA APIs, please visit [https://open.gsa.gov/api/](https://open.gsa.gov/api/).  
+
+------------------
+
+## Corporate Consumer Contact API Documentation
 
 ## On This Page
 *   [About the API](#about-the-api)
